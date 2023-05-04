@@ -1,16 +1,49 @@
-@layer base {
-    /* Importing custom font families */
-    @font-face {
-        font-family: Ikea;
-        font-weight: 700;
-        src: url(../src/assets/fonts/IKEA\ Sans\ Bold.otf) format("opentype");
-    }
-    @font-face {
-        font-family: Proxima;
-        src: url(../src/assets/fonts/Proxima\ Nova\ Regular.otf) format("opentype");
-    }
+/* Import fonts (change to local when final) */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-    .page-title {
-        font-family: "Ikea";
-    }
+/* CSS variables */
+:root {
+  --header-border-color: rgba(0,0,0,0);
+  --header-color: #ffffff;
+  --header-font-size-px: 15px;
+  --header-font-case: normal;
+
+  --base-font-size: 15px;
+  --text-color: #333;
+  --body-font-stack: Noto Sans JP,sans-serif;
+
+  --navigation-font-stack: Noto Sans JP,sans-serif;
+  --navigation-font-weight: 400;
+  --navigation-font-style: normal;
+}
+
+/* Tag styling */
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  -webkit-user-drag: none;
+  border: 0 none;
+  height: auto;
+}
+
+div {
+  display: block;
+}
+
+ul {
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
