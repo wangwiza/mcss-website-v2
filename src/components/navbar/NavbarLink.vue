@@ -99,8 +99,9 @@ svg {
   text-transform: var(--header-font-case);
 }
 
-ol, ul {
-    margin: 0 0 15px 20px;
-    padding: 0;
+ol,
+ul {
+  margin: 0 0 15px 20px;
+  padding: 0;
 }
 </style>

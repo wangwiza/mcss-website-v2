@@ -27,6 +27,24 @@ const navItems = ref([
     ]
   },
   {
+    name: 'team',
+    to: '/team',
+    children: [
+      {
+        name: 'subteam1',
+        to: '/sub1'
+      },
+      {
+        name: 'subteam1',
+        to: '/sub1'
+      },
+      {
+        name: 'subteam1',
+        to: '/sub1'
+      }
+    ]
+  },
+  {
     name: 'sponsors',
     to: '/',
     children: [
@@ -46,17 +64,22 @@ const navItems = ref([
     children: [
       {
         name: 'about mcss',
-        to: '/'
+        to: '/about'
       },
-      {
-        name: 'the team',
-        to: '/'
-      },
+
       {
         name: 'contact us',
-        to: '/'
+        to: '/community/contact'
+      },
+      {
+        name: 'faq',
+        to: '/community/faq'
       }
     ]
+  },
+  {
+    name: 'shop',
+    to: '/shop'
   }
 ])
 </script>
@@ -102,7 +125,7 @@ const navItems = ref([
   padding-top: 19px;
   padding-bottom: 3px;
   margin-bottom: 0;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid var(--header-border-color);
 }
 
 .site-header-wrapper {
@@ -178,5 +201,4 @@ ol li,
 ul li {
   list-style-position: inside;
 }
-
 </style>

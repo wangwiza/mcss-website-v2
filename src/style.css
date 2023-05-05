@@ -5,16 +5,29 @@
 :root {
   --header-border-color: rgba(0, 0, 0, 0);
   --header-color: #ffffff;
-  --header-font-size-px: 15px;
+  --header-font-size-px: 13px;
   --header-font-case: normal;
 
   --base-font-size: 15px;
   --text-color: #333;
   --body-font-stack: Noto Sans JP, sans-serif;
+  --body-font-size-22-to-em: 1.3em;
 
   --navigation-font-stack: Noto Sans JP, sans-serif;
   --navigation-font-weight: 400;
   --navigation-font-style: normal;
+
+  --color-footer-bg: #ffffff;
+  --color-footer-text: #494949;
+  --color-footer-text-darken10: #2f2f2f;
+
+  --primary-btn-bg-color: #be0819;
+  --primary-btn-text-color: #ffffff;
+
+  --alt-btn-font-weight: 400;
+  --alt-btn-font-style: normal;
+  --button-text-case: none;
+  --button-font-size-px: 15px
 }
 
 /* Tag styling */
@@ -52,3 +65,22 @@ svg:not(:root) {
   overflow: hidden;
   overflow-clip-margin: content-box;
 }
+
+footer {
+  display: block;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
