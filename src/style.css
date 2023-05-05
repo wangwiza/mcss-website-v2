@@ -3,16 +3,16 @@
 
 /* CSS variables */
 :root {
-  --header-border-color: rgba(0,0,0,0);
+  --header-border-color: rgba(0, 0, 0, 0);
   --header-color: #ffffff;
   --header-font-size-px: 15px;
   --header-font-case: normal;
 
   --base-font-size: 15px;
   --text-color: #333;
-  --body-font-stack: Noto Sans JP,sans-serif;
+  --body-font-stack: Noto Sans JP, sans-serif;
 
-  --navigation-font-stack: Noto Sans JP,sans-serif;
+  --navigation-font-stack: Noto Sans JP, sans-serif;
   --navigation-font-weight: 400;
   --navigation-font-style: normal;
 }
@@ -47,3 +47,9 @@ li {
   display: list-item;
   text-align: -webkit-match-parent;
 }
+
+svg:not(:root) {
+  overflow: hidden;
+  overflow-clip-margin: content-box;
+}
+
