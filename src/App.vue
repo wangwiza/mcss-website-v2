@@ -36,18 +36,18 @@ textarea {
   color: var(--nav-text-color);
 }
 
-.site-header .wetheme-dropdown, .site-nav--link-wrapper {
+.site-header .dropdown, .link-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.site-header .wetheme-dropdown:not(.icon-right) .icon-dropdown, .site-nav--link-wrapper:not(.icon-right) .icon-dropdown {
+.site-header .dropdown:not(.icon-right) .icon-dropdown, .link-wrapper:not(.icon-right) .icon-dropdown {
     display: inline-block;
     padding-left: .25em;
 }
 
-.site-header .wetheme-dropdown:not(.icon-right) svg, .site-nav--link-wrapper:not(.icon-right) svg {
+.site-header .dropdown:not(.icon-right) svg, .link-wrapper:not(.icon-right) svg {
     vertical-align: middle;
 }
 

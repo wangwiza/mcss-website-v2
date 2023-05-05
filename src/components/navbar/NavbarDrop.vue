@@ -4,18 +4,18 @@ import { useRoute } from 'vue-router'
 
 defineProps({
   to: String,
-  name: String,
-  items
+  items: Array
 })
 
 const route = useRoute()
-const isActive = computed(() => route.path === props.to)
 </script>
 
 <template>
   <router-link :to="to" class="link">
     <div class="link-wrapper">
-      <span class="link-text">{{ name }}</span>
+      <span class="link-text">
+        <slot />
+      </span>
       <span class="icon-dropdown">
         <svg xmlns="http://www.w3.org/2000/svg" width="22.5" height="22.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
       </span>
@@ -40,7 +40,7 @@ const isActive = computed(() => route.path === props.to)
   transition: color 0.3s ease-in;
 }
 
-.site-nav--link-wrapper:not(.icon-right) .icon-dropdown > svg {
+.link-wrapper:not(.icon-right) .icon-dropdown > svg {
     width: 16px;
     height: 16px;
 }
@@ -65,5 +65,10 @@ svg {
     margin: 0;
     z-index: 5;
     opacity: 0;
+}
+
+.dropdown li {
+  text-align: left;
+  width: 100%;
 }
 </style>

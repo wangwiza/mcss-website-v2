@@ -1,60 +1,75 @@
 <script setup>
+import NavbarDrop from './NavbarDrop.vue';
+
+const events = [
+  {
+    title: "event1",
+    link: "/"
+  },
+  {
+    title: "event2",
+    link: "/"
+  },
+  {
+    title: "event3",
+    link: "/"
+  },
+]
 </script>
 
 <template>
   <!-- Inspired by omocat navbar -->
-  <header class="site-header">
-    <!-- Header -->
-    <div class="site-header-wrapper">
-      <div class="header-left"></div>
-      <img
-        src="https://res.cloudinary.com/die52atcc/image/upload/q_auto,f_auto/v1603139753/MCSS/redlogo_jpk8nl.png"
-        alt="redlogo"
-        class="header-logo"
-      />
-      <div class="header-right" style="background-color: aqua"></div>
-    </div>
-    <div class="nav-standalone">
-      <div class="top-links">
-        <!-- two types: dropdown, no dropdown -->
-        <ul class="site-nav">
-          <li>
-            <router-link to="/" class="link">home</router-link>
-          </li>
-          <li class="has-dropdown" aria-haspopup="true">
-            <router-link to="/" class="link">events</router-link>
-            <ul class="site-nav-dropdown">
-                <li>
-                    <router-link to="/" class="link">event1</router-link>
-                </li>
-                <li>
-                    <router-link to="/" class="link">event2</router-link>
-                </li>
-                <li>
-                    <router-link to="/" class="link">event3</router-link>
-                </li>
-            </ul>
-          </li>
-          <li class="has-dropdown" aria-haspopup="true">
-            <router-link to="/" class="link">nani</router-link>
-          </li>
-          <li class="has-dropdown" aria-haspopup="true">
-            <router-link to="/" class="link">what</router-link>
-          </li>
-          <li class="has-dropdown" aria-haspopup="true">
-            <router-link to="/" class="link">info</router-link>
-          </li>
-          <li class="has-dropdown" aria-haspopup="true">
-            <router-link to="/" class="link">shop</router-link>
-          </li>
-        </ul>
-        
+  <div class="sticky-header">
+    <header class="site-header">
+      <!-- Header -->
+      <div class="site-header-wrapper">
+        <div class="header-left"></div>
+        <img
+          src="https://res.cloudinary.com/die52atcc/image/upload/q_auto,f_auto/v1603139753/MCSS/redlogo_jpk8nl.png"
+          alt="redlogo"
+          class="header-logo"
+        />
+        <div class="header-right" style="background-color: aqua"></div>
       </div>
-    </div>
-  </header>
+      <div class="nav-standalone">
+        <div class="top-links">
+          <!-- two types: dropdown, no dropdown -->
+          <ul class="site-nav">
+            <li>
+              <router-link to="/" class="link">home</router-link>
+            </li>
+            <li class="has-dropdown" aria-haspopup="true">
+              <NavbarDrop to="/events" items="events">events</NavbarDrop>
+            </li>
+            <li class="has-dropdown" aria-haspopup="true">
+              <router-link to="/" class="link">nani</router-link>
+            </li>
+            <li class="has-dropdown" aria-haspopup="true">
+              <router-link to="/" class="link">what</router-link>
+            </li>
+            <li class="has-dropdown" aria-haspopup="true">
+              <router-link to="/" class="link">info</router-link>
+            </li>
+            <li class="has-dropdown" aria-haspopup="true">
+              <router-link to="/" class="link">shop</router-link>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </header>
+  </div>
 </template>
 
 <style scoped>
+.sticky-header {
+  position: sticky;
+  top: -1px;
+  background-color: var(--header-color);
+  z-index: 1000;
+  left: 0!important;
+}
+
 .site-header {
   padding-top: 19px;
   padding-bottom: 3px;
@@ -145,18 +160,6 @@ ul li {
   position: relative;
   padding: 6px 15px;
   transition: color 0.3s ease-in;
-}
-
-.site-nav-dropdown {
-    background: var(--header-color);
-    top: 100%;
-    display: block!important;
-    visibility: hidden;
-    position: absolute;
-    left: 0;
-    margin: 0;
-    z-index: 5;
-    opacity: 0;
 }
 
 </style>
