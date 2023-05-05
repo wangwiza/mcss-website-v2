@@ -36,28 +36,24 @@ textarea {
   color: var(--nav-text-color);
 }
 
-.site-header .dropdown, .link-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.site-header .dropdown:not(.icon-right) .icon-dropdown,
+.link-wrapper:not(.icon-right) .icon-dropdown {
+  display: inline-block;
+  padding-left: 0.25em;
 }
 
-.site-header .dropdown:not(.icon-right) .icon-dropdown, .link-wrapper:not(.icon-right) .icon-dropdown {
-    display: inline-block;
-    padding-left: .25em;
-}
-
-.site-header .dropdown:not(.icon-right) svg, .link-wrapper:not(.icon-right) svg {
-    vertical-align: middle;
+.site-header .dropdown:not(.icon-right) svg,
+.link-wrapper:not(.icon-right) svg {
+  vertical-align: middle;
 }
 
 svg {
-    width: 22.5;
-    height: 22.5;
-    fill: none;
-    stroke: currentcolor;
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+  width: 22.5;
+  height: 22.5;
+  fill: none;
+  stroke: currentcolor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 </style>

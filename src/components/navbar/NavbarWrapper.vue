@@ -1,20 +1,64 @@
 <script setup>
-import NavbarDrop from './NavbarDrop.vue';
+import NavbarLink from './NavbarLink.vue'
+import { ref } from 'vue'
 
-const events = [
+// Feeding pages into navbar
+const navItems = ref([
   {
-    title: "event1",
-    link: "/"
+    name: 'home',
+    to: '/'
   },
   {
-    title: "event2",
-    link: "/"
+    name: 'events',
+    to: '/events',
+    children: [
+      {
+        name: 'event1',
+        to: '/'
+      },
+      {
+        name: 'event2',
+        to: '/'
+      },
+      {
+        name: 'event3',
+        to: '/'
+      }
+    ]
   },
   {
-    title: "event3",
-    link: "/"
+    name: 'sponsors',
+    to: '/',
+    children: [
+      {
+        name: 'our sponsors',
+        to: '/'
+      },
+      {
+        name: 'membership',
+        to: '/'
+      }
+    ]
   },
-]
+  {
+    name: 'info',
+    to: '/',
+    children: [
+      {
+        name: 'about mcss',
+        to: '/'
+      },
+      {
+        name: 'the team',
+        to: '/'
+      },
+      {
+        name: 'contact us',
+        to: '/'
+      }
+    ]
+  }
+])
 </script>
 
 <template>
@@ -35,26 +79,10 @@ const events = [
         <div class="top-links">
           <!-- two types: dropdown, no dropdown -->
           <ul class="site-nav">
-            <li>
-              <router-link to="/" class="link">home</router-link>
-            </li>
-            <li class="has-dropdown" aria-haspopup="true">
-              <NavbarDrop to="/events" items="events">events</NavbarDrop>
-            </li>
-            <li class="has-dropdown" aria-haspopup="true">
-              <router-link to="/" class="link">nani</router-link>
-            </li>
-            <li class="has-dropdown" aria-haspopup="true">
-              <router-link to="/" class="link">what</router-link>
-            </li>
-            <li class="has-dropdown" aria-haspopup="true">
-              <router-link to="/" class="link">info</router-link>
-            </li>
-            <li class="has-dropdown" aria-haspopup="true">
-              <router-link to="/" class="link">shop</router-link>
+            <li v-for="item in navItems">
+              <NavbarLink :to="item.to" :children="item.children">{{ item.name }}</NavbarLink>
             </li>
           </ul>
-          
         </div>
       </div>
     </header>
@@ -67,7 +95,7 @@ const events = [
   top: -1px;
   background-color: var(--header-color);
   z-index: 1000;
-  left: 0!important;
+  left: 0 !important;
 }
 
 .site-header {
@@ -149,17 +177,6 @@ ul {
 ol li,
 ul li {
   list-style-position: inside;
-}
-
-.link {
-  display: block;
-  white-space: nowrap;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.5px;
-  position: relative;
-  padding: 6px 15px;
-  transition: color 0.3s ease-in;
 }
 
 </style>
