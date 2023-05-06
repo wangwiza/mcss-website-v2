@@ -232,4 +232,8 @@ form {
 .bottom-footer a {
     font-size: 12px;
 }
+
+textarea:focus, input:focus{
+    outline: none;
+}
 </style>
