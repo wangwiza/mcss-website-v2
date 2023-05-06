@@ -27,7 +27,7 @@
   --alt-btn-font-weight: 400;
   --alt-btn-font-style: normal;
   --button-text-case: none;
-  --button-font-size-px: 15px
+  --button-font-size-px: 15px;
 }
 
 /* Tag styling */
@@ -83,4 +83,3 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
-

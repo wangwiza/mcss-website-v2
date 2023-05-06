@@ -23,29 +23,46 @@
             <div class="h3 footer-header">NEWSLETTER</div>
             <form>
               <div class="input-group">
-                <input
-                  type="email"
-                  placeholder="email@example.com"
-                  name="contact[email]"
-                  id="Email"
-                  class="input-group-field footer-email-input"
-                />
+                <input type="email" placeholder="email@example.com" name="contact[email]" id="Email"
+                  class="input-group-field footer-email-input" />
                 <span>
-                    <input type="submit"
-                        class="btn footer-email-submit"
-                        name="subscribe"
-                        id="subscribe"
-                        value="SUBSCRIBE"
-                    >
+                  <input type="submit" class="btn footer-email-submit" name="subscribe" id="subscribe"
+                    value="SUBSCRIBE" />
                 </span>
               </div>
             </form>
           </div>
-          <div class="grid-item">
+          <div class="grid-item social-media-footer">
             <div class="h3 footer-header">SNS</div>
+            <ul class="clearfix">
+              <li>
+                <a href="https://www.facebook.com/mcss.ca" target="_blank">
+                  <font-awesome-icon icon="fa-brands fa-facebook-f" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/mcssfam/" target="_blank">
+                  <font-awesome-icon icon="fa-brands fa-instagram" />
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/W8x4m-qpmJ8" target="_blank">
+                  <font-awesome-icon icon="fa-brands fa-tiktok" />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="footer-bottom"></div>
+        <div class="bottom-footer">
+          <div class="footer-description"></div>
+          <div class="bottom-row">
+            <ul class="bottom-footer-links">
+              <li>
+                <a href="/">&copy; 2023, MCSS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </div>
@@ -59,8 +76,8 @@
 }
 
 .site-footer {
-    margin-top: 0;
-    text-align: center;
+  margin-top: 0;
+  text-align: center;
 }
 
 footer {
@@ -113,9 +130,11 @@ h3 {
 li {
   margin-bottom: 0.25em;
 }
+
 .footer-content a {
   color: var(--color-footer-text-darken10);
 }
+
 .links-footer a {
   margin: 0.2em 0;
 }
@@ -134,26 +153,83 @@ form {
   border-collapse: separate;
 }
 
-.footer-email-input, .newsletter-footer input.footer-email-input {
-    border-radius: 0;
-    border: 0;
-    border-bottom: 1px solid var(--color-footer-text);
-    background: var(--color-footer-bg);
-    color: var(--color-footer-text);
+.footer-email-input,
+.newsletter-footer input.footer-email-input {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid var(--color-footer-text);
+  background: var(--color-footer-bg);
+  color: var(--color-footer-text);
 }
 
 .input-group .input-group-field {
-    width: 100%;
+  width: 100%;
 }
 
-.input-group-btn, .input-group-field {
-    display: table-cell;
-    vertical-align: middle;
-    margin: 0;
+.input-group-btn,
+.input-group-field {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
 }
 
 .footer-email-submit {
-    background: var(--primary-btn-bg-color);
-    color: var(--primary-btn-text-color);
+  background: var(--primary-btn-bg-color);
+  color: var(--primary-btn-text-color);
+}
+
+.social-media-footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.social-media-footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social-media-footer ul li a {
+    color: var(--color-footer-text);
+    transition: all .15s ease-in-out 0s;
+      display: inline-block;
+    padding: 11px 18px;
+}
+
+.bottom-footer {
+  margin-top: 60px;
+}
+
+.clearfix:after, .grid:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.footer-description {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.bottom-footer-links {
+    padding: 0;
+    margin: 10px 0;
+    flex: 1 1 100%;
+}
+
+.bottom-footer-links li:first-child {
+    padding-left: 0;
+    border-left: 0;
+}
+
+.bottom-footer-links li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 15px;
+    border-left: 1px solid var(--color-footer-text);
+    line-height: 1;
+}
+
+.bottom-footer a {
+    font-size: 12px;
 }
 </style>

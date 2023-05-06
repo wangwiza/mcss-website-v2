@@ -93,60 +93,62 @@ a {
   background: 0 0;
 }
 
-input, select, textarea {
-    background: 0 0;
-    max-width: 100%;
-    border-radius: 0;
+input,
+select,
+textarea {
+  background: 0 0;
+  max-width: 100%;
+  border-radius: 0;
 }
 
 input {
-    border: 0;
-    border-bottom: 1px solid var(--border-color);
-    padding: 10px;
+  border: 0;
+  border-bottom: 1px solid var(--border-color);
+  padding: 10px;
 }
 
 .newsletter-footer input.footer-email-submit {
-    border-radius: 0;
-    font-weight: var(--alt-btn-font-weight);
-    font-style: var(--alt-btn-font-style);
-    margin-top: 15px;
-    text-transform: var(--button-text-case);
-    padding: 10px 20px;
-    font-size: var(--button-font-size-px);
-    display: inline-block;
+  border-radius: 0;
+  font-weight: var(--alt-btn-font-weight);
+  font-style: var(--alt-btn-font-style);
+  margin-top: 15px;
+  text-transform: var(--button-text-case);
+  padding: 10px 20px;
+  font-size: var(--button-font-size-px);
+  display: inline-block;
 }
 
-button, input[type=submit] {
-    cursor: pointer;
+button,
+input[type='submit'] {
+  cursor: pointer;
 }
 
 .footer-email-submit {
-    margin-bottom: 15px;
-    transition: all .15s ease-in-out 0s;
+  margin-bottom: 15px;
+  transition: all 0.15s ease-in-out 0s;
 }
 
 .btn {
-      -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    display: inline-block;
-    padding: 8px 10px;
-    width: auto;
-    margin: 0;
-    line-height: 1.42;
-    font-weight: 700;
-    text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    cursor: pointer;
-    border: 1px solid transparent;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    border-radius: 0;
-    background-color: var(--primary-btn-bg-color);
-    color: var(--primary-btn-text-color);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  padding: 8px 10px;
+  width: auto;
+  margin: 0;
+  line-height: 1.42;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  background-color: var(--primary-btn-bg-color);
+  color: var(--primary-btn-text-color);
 }
-
 </style>
