@@ -23,7 +23,7 @@ const navItems = ref(directory)
         <div class="top-links">
           <!-- two types: dropdown, no dropdown -->
           <ul class="site-nav">
-            <li v-for="item in navItems">
+            <li v-for="item in navItems" :key="item.id">
               <NavbarLink :to="item.to" :children="item.children">{{ item.name }}</NavbarLink>
             </li>
           </ul>

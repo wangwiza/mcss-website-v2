@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue'
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css'
 import { web_slides } from '../slides';
@@ -8,6 +7,7 @@ import { web_slides } from '../slides';
 <template>
   <vueper-slides 
     v-for="year in web_slides"
+    :key="year.id"
     :slide-ratio="710 / 1577"
     :bullets="false"
     :touchable="false"

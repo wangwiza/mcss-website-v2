@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/af97af33-3006-4fa1-86bd-b57ea1b0212e/deploy-status)](https://app.netlify.com/sites/mcss-website-v2/deploys)
 # mcss-website-v2
 
 This template should help get you started developing with Vue 3 in Vite.

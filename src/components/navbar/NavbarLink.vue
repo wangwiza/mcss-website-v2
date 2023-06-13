@@ -23,26 +23,12 @@ const props = defineProps({
           <slot />
         </span>
         <span class="icon-dropdown">
-          <!-- <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="22.5"
-            height="22.5"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-chevron-down"
-          >
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg> -->
           <font-awesome-icon :icon="['fas', 'chevron-down']" />
         </span>
       </div>
     </router-link>
     <ul class="dropdown" v-show="showDrop">
-      <li v-for="child in children">
+      <li v-for="child in children" :key="child.is">
         <router-link :to="child.to" class="link">{{ child.name }}</router-link>
       </li>
     </ul>
