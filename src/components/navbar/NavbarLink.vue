@@ -23,7 +23,7 @@ const props = defineProps({
           <slot />
         </span>
         <span class="icon-dropdown">
-          <svg
+          <!-- <svg
             xmlns="http://www.w3.org/2000/svg"
             width="22.5"
             height="22.5"
@@ -36,7 +36,8 @@ const props = defineProps({
             class="feather feather-chevron-down"
           >
             <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
+          </svg> -->
+          <font-awesome-icon :icon="['fas', 'chevron-down']" />
         </span>
       </div>
     </router-link>
@@ -60,7 +61,7 @@ const props = defineProps({
   transition: color 0.3s ease-in;
 }
 
-.link-wrapper:not(.icon-right) .icon-dropdown > svg {
+.link-wrapper:not(.icon-right) .icon-dropdown{
   width: 16px;
   height: 16px;
 }

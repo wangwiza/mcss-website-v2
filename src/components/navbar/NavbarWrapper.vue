@@ -1,91 +1,12 @@
 <script setup>
+import { directory } from '../../directory';
 import NavbarLink from './NavbarLink.vue'
 import { ref } from 'vue'
 
-// Feeding pages into navbar
-const navItems = ref([
-  {
-    name: 'home',
-    to: '/'
-  },
-  {
-    name: 'events',
-    to: '/events',
-    children: [
-      {
-        name: 'event1',
-        to: '/'
-      },
-      {
-        name: 'event2',
-        to: '/'
-      },
-      {
-        name: 'event3',
-        to: '/'
-      }
-    ]
-  },
-  {
-    name: 'team',
-    to: '/team',
-    children: [
-      {
-        name: 'subteam1',
-        to: '/sub1'
-      },
-      {
-        name: 'subteam1',
-        to: '/sub1'
-      },
-      {
-        name: 'subteam1',
-        to: '/sub1'
-      }
-    ]
-  },
-  {
-    name: 'sponsors',
-    to: '/',
-    children: [
-      {
-        name: 'our sponsors',
-        to: '/'
-      },
-      {
-        name: 'membership',
-        to: '/'
-      }
-    ]
-  },
-  {
-    name: 'info',
-    to: '/',
-    children: [
-      {
-        name: 'about mcss',
-        to: '/about'
-      },
-
-      {
-        name: 'contact us',
-        to: '/community/contact'
-      },
-      {
-        name: 'faq',
-        to: '/community/faq'
-      }
-    ]
-  },
-  {
-    name: 'shop',
-    to: '/shop'
-  }
-])
+const navItems = ref(directory)
 </script>
 
 <template>
-  <!-- Inspired by omocat navbar -->
   <div class="sticky-header">
     <header class="site-header">
       <!-- Header -->
@@ -96,7 +17,7 @@ const navItems = ref([
           alt="redlogo"
           class="header-logo"
         />
-        <div class="header-right" style="background-color: aqua"></div>
+        <div class="header-right"></div>
       </div>
       <div class="nav-standalone">
         <div class="top-links">

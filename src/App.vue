@@ -6,7 +6,7 @@ import FooterWrapper from './components/FooterWrapper.vue'
 <template>
   <!-- Navbar sticky on any page -->
   <NavbarWrapper />
-  <div>
+  <div class="main-content">
     <!-- Routerview is dynamic and changes -->
     <RouterView />
   </div>
@@ -150,5 +150,9 @@ input[type='submit'] {
   border-radius: 0;
   background-color: var(--primary-btn-bg-color);
   color: var(--primary-btn-text-color);
+}
+
+.main-content {
+  background-color: black;
 }
 </style>

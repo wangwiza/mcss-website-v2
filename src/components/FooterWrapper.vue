@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+
+</script>
 
 <template>
   <div class="footer-wrap">
@@ -233,7 +235,5 @@ form {
     font-size: 12px;
 }
 
-textarea:focus, input:focus{
-    outline: none;
-}
+
 </style>
