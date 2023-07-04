@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <h1 class="page-title">hello world!</h1>
+  <h1>hello world!</h1>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem ad labore rem adipisci
     eveniet omnis quod earum dolores? Delectus, ipsum? Eveniet cupiditate nemo eum ea, quod officiis

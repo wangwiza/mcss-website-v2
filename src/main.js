@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import App from './App.vue'
+import App from '@/App.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -8,9 +8,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faFacebookF, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
-import './style.css'
+import '@/style.css'
 
-import router from './router/router.js'
+import router from '@/router/router.js'
 
 library.add([faFacebookF,faInstagram,faTiktok, faChevronDown])
 

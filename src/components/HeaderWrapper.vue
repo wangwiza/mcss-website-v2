@@ -1,6 +1,6 @@
 <script setup>
-import { directory } from '../../directory';
-import NavbarLink from './NavbarLink.vue'
+import { directory } from '@/directory.js';
+import HeaderLink from '@/components/HeaderLink.vue'
 import { ref } from 'vue'
 
 const navItems = ref(directory)
@@ -12,11 +12,8 @@ const navItems = ref(directory)
       <!-- Header -->
       <div class="site-header-wrapper">
         <div class="header-left"></div>
-        <img
-          src="https://res.cloudinary.com/die52atcc/image/upload/q_auto,f_auto/v1603139753/MCSS/redlogo_jpk8nl.png"
-          alt="redlogo"
-          class="header-logo"
-        />
+        <img src="https://res.cloudinary.com/die52atcc/image/upload/q_auto,f_auto/v1603139753/MCSS/redlogo_jpk8nl.png"
+          alt="redlogo" class="header-logo" />
         <div class="header-right"></div>
       </div>
       <div class="nav-standalone">
@@ -24,7 +21,7 @@ const navItems = ref(directory)
           <!-- two types: dropdown, no dropdown -->
           <ul class="site-nav">
             <li v-for="item in navItems" :key="item.id">
-              <NavbarLink :to="item.to" :children="item.children">{{ item.name }}</NavbarLink>
+              <HeaderLink :to="item.to" :children="item.children">{{ item.name }}</HeaderLink>
             </li>
           </ul>
         </div>
@@ -108,7 +105,7 @@ ul {
   text-transform: var(--header-font-case);
 }
 
-.site-nav > li {
+.site-nav>li {
   position: relative;
   display: inline-block;
 }
