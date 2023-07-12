@@ -10,13 +10,17 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@cloudinary/url-gen": "^1.10.1",
+    "@cloudinary/vue": "^1.11.2",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@supabase/supabase-js": "^2.26.0",
     "i": "^0.3.7",
     "npm": "^9.6.6",
     "pinia": "^2.0.36",
+    "semver": "^7.5.3",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6",
     "vueperslides": "^3.5.1"
