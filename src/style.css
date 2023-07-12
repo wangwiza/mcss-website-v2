@@ -30,7 +30,7 @@
   --button-font-size-px: 15px;
 }
 
-/* Tag styling */
+/* Element styling */
 * {
   box-sizing: inherit;
   margin: 0;
@@ -76,6 +76,7 @@ form {
 }
 
 body {
+  /* Removes all text selection capabilities */
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -84,7 +85,6 @@ body {
   user-select: none;
 }
 
-/* Global styles */
 body,
 button,
 input,
@@ -220,8 +220,4 @@ input[type='submit'] {
   border-radius: 0;
   background-color: var(--primary-btn-bg-color);
   color: var(--primary-btn-text-color);
-}
-
-.main-content {
-  background-color: black;
 }
