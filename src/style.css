@@ -7,6 +7,10 @@
   --header-color: #ffffff;
   --header-font-size-px: 13px;
   --header-font-case: normal;
+  --header-text-size-px: 15px;
+
+  --heading-spacing: 0px;
+  --heading-font-case: uppercase;
 
   --base-font-size: 15px;
   --text-color: #333;
@@ -83,6 +87,14 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 body,

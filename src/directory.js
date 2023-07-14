@@ -46,7 +46,7 @@ export const directory = [
             },
 
             {
-                name: 'our team',
+                name: 'recruitment',
                 to: '/about'
             },
             {
