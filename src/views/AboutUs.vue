@@ -84,6 +84,6 @@ p {
 
 .page_polaroid {
   width: auto;
-  max-width: 40%;
+  max-width: 100%;
   margin: 0;
 }</style>

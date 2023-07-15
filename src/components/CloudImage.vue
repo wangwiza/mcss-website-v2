@@ -1,5 +1,5 @@
 <script setup>
-import { AdvancedImage } from "@cloudinary/vue";
+import { AdvancedImage, lazyload } from "@cloudinary/vue";
 import { Cloudinary } from "@cloudinary/url-gen";
 
 const cld = new Cloudinary({
@@ -7,6 +7,8 @@ const cld = new Cloudinary({
         cloudName: "mcss-website",
     },
 });
+
+const plugins = [lazyload()]
 
 const props = defineProps({
     imageName: String,
@@ -16,5 +18,5 @@ const myImg = cld.image(props.imageName)
 </script>
 
 <template>
-    <AdvancedImage :cldImg="myImg" />
+    <AdvancedImage :cldImg="myImg" :plugins="plugins" />
 </template>
