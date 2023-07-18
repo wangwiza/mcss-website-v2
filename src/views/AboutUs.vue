@@ -1,6 +1,7 @@
 <script setup>
 import CloudImage from '@/components/CloudImage.vue';
-
+import TeamCard from '@/components/TeamCard.vue';
+import { team } from '@/team.js';
 
 </script>
 
@@ -39,6 +40,10 @@ import CloudImage from '@/components/CloudImage.vue';
           <b>MCSS</b>
         </p>
         <p class="p1">&nbsp</p>
+        <div class="team-grid">
+          <TeamCard class="member-image" v-for="member in team" :key="member" :teamMember="member"/>
+
+        </div>
       </div>
     </div>
   </div>
@@ -82,8 +87,15 @@ p {
   margin-bottom: 15px;
 }
 
+.team-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 5%;
+}
+
 .page_polaroid {
   width: auto;
   max-width: 100%;
   margin: 0;
-}</style>
+}
+</style>
