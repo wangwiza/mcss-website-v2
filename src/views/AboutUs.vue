@@ -38,7 +38,7 @@ import { team } from '@/team.js';
         <p class="p1">&nbsp</p>
         <p class="p1">
           <b>MCSS</b>
-          <h3 class="p1">MEET THE TEAM</h3>
+          <h1 class="page-title">MEET THE TEAM</h1>
         </p>
         <p class="p1">&nbsp</p>
         <div class="team-grid">
