@@ -9,7 +9,7 @@ import { team } from '@/team.js';
   <div class="wrapper">
     <div class="grid">
       <h1 class="page-title">About McGill Chinese Student Society</h1>
-      <div class="p1">
+      <div>
         <p class="p1">
           <CloudImage class="page_polaroid" imageName="mcss/team/2022-2023/group_polaroid2.jpg" />
         </p>
@@ -38,10 +38,11 @@ import { team } from '@/team.js';
         <p class="p1">&nbsp</p>
         <p class="p1">
           <b>MCSS</b>
+          <h3 class="p1">MEET THE TEAM</h3>
         </p>
         <p class="p1">&nbsp</p>
         <div class="team-grid">
-          <TeamCard class="member-image" v-for="member in team" :key="member" :teamMember="member"/>
+          <TeamCard v-for="member in team" :key="member" :teamMember="member"/>
 
         </div>
       </div>
@@ -89,8 +90,10 @@ p {
 
 .team-grid {
   display: grid;
-  grid-template-columns: auto auto auto;
-  column-gap: 5%;
+  grid-template-columns: repeat(auto-fill, minmax(max(250px, 15vw), 1fr));
+  column-gap: 5vw;
+  row-gap: 5vh;
+  align-items: stretch;
 }
 
 .page_polaroid {
