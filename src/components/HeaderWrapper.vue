@@ -1,5 +1,5 @@
 <script setup>
-import { directory } from '@/directory.js';
+import { directory } from '@/data/directory.js';
 import HeaderLink from '@/components/HeaderLink.vue'
 import { ref } from 'vue'
 

@@ -24,11 +24,11 @@ export const directory = [
     
     {
         name: 'sponsors',
-        to: '/',
+        to: '/sponsors',
         children: [
             {
                 name: 'our sponsors',
-                to: '/'
+                to: '/sponsors'
             },
             {
                 name: 'membership',

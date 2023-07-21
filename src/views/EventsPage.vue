@@ -1,7 +1,7 @@
 <script setup>
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css'
-import { web_slides } from '@/slides';
+import { web_slides } from '@/data/slides.js';
 </script>
 
 <template>

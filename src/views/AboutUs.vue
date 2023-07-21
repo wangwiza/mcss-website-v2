@@ -1,7 +1,7 @@
 <script setup>
 import CloudImage from '@/components/CloudImage.vue';
 import TeamCard from '@/components/TeamCard.vue';
-import { team } from '@/team.js';
+import { team } from '@/data/team.js';
 
 </script>
 
