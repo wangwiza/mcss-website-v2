@@ -29,7 +29,14 @@ const routes = [
 // the magical stuff
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return {
+      behavior: 'smooth',
+      top: 0
+    }
+  },
 })
 
 export default router
