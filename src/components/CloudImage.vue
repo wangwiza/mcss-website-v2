@@ -1,5 +1,5 @@
 <script setup>
-import { AdvancedImage, lazyload } from "@cloudinary/vue";
+import { AdvancedImage, lazyload, responsive, placeholder } from "@cloudinary/vue";
 import { Cloudinary } from "@cloudinary/url-gen";
 
 const cld = new Cloudinary({
@@ -8,13 +8,19 @@ const cld = new Cloudinary({
     },
 });
 
-const plugins = [lazyload()]
+const plugins = [
+    lazyload(),
+    responsive({ steps: 200 }),
+    placeholder({ mode: 'blur' }),
+]
 
 const props = defineProps({
     imageName: String,
 });
 
 const myImg = cld.image(props.imageName)
+myImg.format('auto')
+myImg.quality('auto')
 </script>
 
 <template>
