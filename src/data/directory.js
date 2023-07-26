@@ -8,17 +8,21 @@ export const directory = [
         to: '/events',
         children: [
             {
-                name: 'event1',
+                name: '2023-2024',
                 to: '/'
             },
             {
-                name: 'event2',
+                name: '2022-2023',
                 to: '/'
             },
             {
-                name: 'event3',
+                name: '2021-2022',
                 to: '/'
-            }
+            },
+            {
+                name: '2020-2021',
+                to: '/'
+            },
         ]
     },
     
