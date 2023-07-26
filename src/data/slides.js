@@ -1,5 +1,5 @@
-export const web_slides = [
-    [
+export const web_slides = {
+    y2022: [
         {
             title: 'Spring Waltz',
             content: 'Annual semi-formal at Plaza Centre-Ville',
@@ -31,5 +31,37 @@ export const web_slides = [
             image: 'https://res.cloudinary.com/mcss-website/image/upload/v1689123120/mcss/events/2022-2023/night_market_banner.png'
         },
     ],
-    // Old Slides
-]
+    y2021: [
+        {
+            title: 'Spring Waltz',
+            content: 'Annual semi-formal at Plaza Centre-Ville',
+            image: 'https://res.cloudinary.com/mcss-website/image/upload/v1689123119/mcss/events/2021-2022/welcome_party.jpg'
+        },
+        {
+            title: "Are You Game?",
+            content: "Game night at Gert's",
+            image: 'https://res.cloudinary.com/mcss-website/image/upload/v1689123119/mcss/events/2021-2022/casino_night.png'
+        },
+        {
+            title: "Find Your Lucky Charm",
+            content: "Mingling at Apt 200",
+            image: 'https://res.cloudinary.com/mcss-website/image/upload/v1689123119/mcss/events/2021-2022/inferno_paradise.png'
+        },
+        {
+            title: "Lunar New Year 2023",
+            content: "Annual CNY fair at SSMU",
+            image: 'https://res.cloudinary.com/mcss-website/image/upload/v1689123119/mcss/events/2021-2022/alumni_speak.png'
+        },
+        {
+            title: "Casino Night",
+            content: "Gambling at Place des Arts",
+            image: 'https://res.cloudinary.com/mcss-website/image/upload/v1689123119/mcss/events/2021-2022/midterm_blues.png'
+        },
+        {
+            title: "Night Market",
+            content: "Welcoming Party at SSMU",
+            image: 'https://res.cloudinary.com/mcss-website/image/upload/v1689123120/mcss/events/2021-2022/glitz_gold.jpg'
+        },
+    ],
+
+}
