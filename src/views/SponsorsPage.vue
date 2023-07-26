@@ -3,7 +3,6 @@ import { sponsors } from '@/data/sponsors.js';
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import CloudImage from '@/components/CloudImage.vue';
 import 'vueperslides/dist/vueperslides.css'
-import MCard from "vue-3dcss-card";
 </script>
 
 <template>
