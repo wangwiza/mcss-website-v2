@@ -97,8 +97,9 @@ p {
 }
 
 .page_polaroid {
-  width: auto;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+  max-width: 600px;
   margin: 0;
 }
 </style>
