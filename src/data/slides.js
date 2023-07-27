@@ -100,4 +100,40 @@ export const web_slides = {
         ],
 
     },
+    y2019: {
+        span: '2019-2020',
+        slides: [
+            {
+                title: 'MCSS & The Legend of The 10 Rings',
+                content: 'Welcome Party',
+                image: 'mcss/events/2019-2020/welcome_party'
+            },
+            {
+                title: "Are You Game?",
+                content: "Game night at Gert's",
+                image: 'mcss/events/2019-2020/monopoly'
+            },
+            {
+                title: "Find Your Lucky Charm",
+                content: "Mingling at Apt 200",
+                image: 'mcss/events/2019-2020/casino_night'
+            },
+            {
+                title: "Lunar New Year 2023",
+                content: "Annual CNY fair at SSMU",
+                image: 'mcss/events/2019-2020/ski_trip'
+            },
+            {
+                title: "Casino Night",
+                content: "Gambling at Place des Arts",
+                image: 'mcss/events/2019-2020/mando_academy'
+            },
+            {
+                title: "Casino Night",
+                content: "Gambling at Place des Arts",
+                image: 'mcss/events/2019-2020/sogaeting'
+            },
+        ],
+
+    },
 }
