@@ -1,66 +1,66 @@
 export const sponsors = [
     {
         name: "Matcha Zanmai",
-        image: "matcha_zanmai_sm"
+        image: "mcss/sponsors/matcha_zanmai_sm"
     },
     {
         name: "World Tea House",
-        image: "world_teahouse"
+        image: "mcss/sponsors/world_teahouse"
     },
     {
         name: "Nos Thés",
-        image: "nos_thes"
+        image: "mcss/sponsors/nos_thes"
     },
     {
         name: "Sansotei Ramen",
-        image: "sansotei_ramen_sm"
+        image: "mcss/sponsors/sansotei_ramen_sm"
     },
     {
         name: "Yi Ji Change Fen",
-        image: "yijichangfen"
+        image: "mcss/sponsors/yijichangfen"
     },
     {
         name: "DONDONYA",
-        image: "dondonya"
+        image: "mcss/sponsors/dondonya"
     },
     {
         name: "Chicha",
-        image: "chicha"
+        image: "mcss/sponsors/chicha"
     },
     {
         name: "Tsujiri",
-        image: "tsujiri"
+        image: "mcss/sponsors/tsujiri"
     },
     {
         name: "Hazukido",
-        image: "hazukido"
+        image: "mcss/sponsors/hazukido"
     },
     {
         name: "Kalbi BBQ",
-        image: "kalbi_bbq"
+        image: "mcss/sponsors/kalbi_bbq"
     },
     {
         name: "Ahi Poke",
-        image: "ahi_poke"
+        image: "mcss/sponsors/ahi_poke"
     },
     {
         name: "Gong Cha",
-        image: "gong_cha"
+        image: "mcss/sponsors/gong_cha"
     },
     {
         name: "Khiel's Canada",
-        image: "khiels"
+        image: "mcss/sponsors/khiels"
     },
     {
         name: "Hair Anatomy Studios",
-        image: "hair_anatomy"
+        image: "mcss/sponsors/hair_anatomy"
     },
     {
         name: "Salon Rium",
-        image: "salon_rium"
+        image: "mcss/sponsors/salon_rium"
     },
     {
         name: "Mei Dental Clinic",
-        image: "mei_clinic"
+        image: "mcss/sponsors/mei_clinic"
     },
 ]
