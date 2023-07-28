@@ -18,6 +18,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "npm": "^9.6.6",
     "pinia": "^2.0.36",
+    "three": "^0.155.0",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6",
     "vueperslides": "^3.5.1"
