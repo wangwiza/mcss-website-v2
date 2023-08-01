@@ -1,6 +1,4 @@
 <script setup>
-import { sponsors } from '@/data/sponsors.js';
-import { VueperSlides, VueperSlide } from 'vueperslides'
 import CloudImage from '@/components/CloudImage.vue';
 import 'vueperslides/dist/vueperslides.css'
 </script>
@@ -11,8 +9,8 @@ import 'vueperslides/dist/vueperslides.css'
         <h1 class="page-title">MCSS 2023-2024 MEMBERSHIP CARD</h1>
         <p class="p1">
 
-            <CloudImage class="membership-card" imageName="mcss/card/front" />
-        </p>
+                <CloudImage class="membership-card" imageName="mcss/card/front_23-24" />
+            </p>
         <p class="p1">
             MTSA, HKSN, MCSS and MECA have partnered together to bring you another joint
             Membership Card!

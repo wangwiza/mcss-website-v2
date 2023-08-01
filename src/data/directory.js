@@ -36,7 +36,7 @@ export const directory = [
             },
             {
                 name: 'membership',
-                to: '/'
+                to: '/membership'
             }
         ]
     },
