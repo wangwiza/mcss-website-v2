@@ -65,7 +65,6 @@ import 'vueperslides/dist/vueperslides.css'
 .p1 {
   text-align: center;
   margin-bottom: 15px;
-  
 }
 
 .membership-card {

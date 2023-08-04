@@ -1,6 +1,7 @@
 <script setup>
 import CloudImage from '@/components/CloudImage.vue';
 import 'vueperslides/dist/vueperslides.css'
+import CardTimeline from '../components/CardTimeline.vue';
 </script>
 
 <template>
@@ -9,21 +10,24 @@ import 'vueperslides/dist/vueperslides.css'
         <h1 class="page-title">MCSS 2023-2024 MEMBERSHIP CARD</h1>
         <p class="p1">
 
-                <CloudImage class="membership-card" imageName="mcss/card/front_23-24" />
-            </p>
+            <CloudImage class="membership-card" imageName="mcss/card/front_23-24" />
+        </p>
         <p class="p1">
             MTSA, HKSN, MCSS and MECA have partnered together to bring you another joint
             Membership Card!
-
+        </p>
+        <p class="p1">
             With our membership card, students can get numerous discounts at various restaurants and stores across the city.
-            We
-            take pride in bringing our members the best deals and benefits with our annually updated list of participating
-            sponsors.
+        </p>
+        <p class="p1">
+            We take pride in bringing our members the best deals and benefits with our annually updated list of
+            participating sponsors.
         </p>
         <p class="p1">&nbsp</p>
         <p class="p1">&nbsp</p>
         <p class="p1">&nbsp</p>
-
+        <h1 class="page-title">PAST CARDS</h1>
+        <CardTimeline />
     </div>
 </template>
 
@@ -31,7 +35,6 @@ import 'vueperslides/dist/vueperslides.css'
 .wrapper {
     justify-content: center;
     margin-bottom: 30px;
-
     position: relative;
     max-width: 1660px;
     width: 66.666%;
@@ -50,9 +53,9 @@ import 'vueperslides/dist/vueperslides.css'
 }
 
 .p1 {
-  text-align: center;
-  margin-bottom: 15px;
-  
+    text-align: center;
+    margin-bottom: 15px;
+
 }
 
 .membership-card {
