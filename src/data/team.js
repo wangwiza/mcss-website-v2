@@ -128,29 +128,4 @@ export const team = [
         position: "Webmaster",
     },
     // FYRS???
-    {
-        name: "SOMEONE",
-        image: "someone1",
-        position: "First Year Rep",
-    },
-    {
-        name: "SOMEONE",
-        image: "someone2",
-        position: "First Year Rep",
-    },
-    {
-        name: "SOMEONE",
-        image: "someone3",
-        position: "First Year Rep",
-    },
-    {
-        name: "SOMEONE",
-        image: "someone4",
-        position: "First Year Rep",
-    },
-    {
-        name: "SOMEONE",
-        image: "someone5",
-        position: "First Year Rep",
-    },
 ]
