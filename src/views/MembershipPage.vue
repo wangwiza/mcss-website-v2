@@ -15,16 +15,24 @@ import CardTimeline from '../components/CardTimeline.vue';
         <p class="p1">
             MTSA, HKSN, MCSS and MECA have partnered together to bring you another joint
             Membership Card!
-        </p>
-        <p class="p1">
+
             With our membership card, students can get numerous discounts at various restaurants and stores across the city.
+            We
+            take pride in bringing our members the best deals and benefits with our annually updated list of participating
+            sponsors.
         </p>
         <p class="p1">
-            We take pride in bringing our members the best deals and benefits with our annually updated list of
-            participating sponsors.
+            From 2021 onwards, the East Asian Clubs of McGill have decided to team up to provide you with a collab membership card.
+            This means higher quality collab events, less cards to carry around, and an even bigger list of sweet deals for you.
         </p>
+        <p class="p1">
+            By buying our card, you are also showing your support, and enabling us to keep producing banger events.
+        </p>
+        
         <p class="p1">&nbsp</p>
-        <p class="p1">&nbsp</p>
+        <p class="p1">
+            Every year, the graphic/media teams of each club come together to vote on a new design for the card. You can take a look at some of the designs that have won previously below.
+        </p>
         <p class="p1">&nbsp</p>
         <h1 class="page-title">PAST CARDS</h1>
         <CardTimeline />

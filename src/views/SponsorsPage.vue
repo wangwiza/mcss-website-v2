@@ -8,24 +8,6 @@ import 'vueperslides/dist/vueperslides.css'
 <template>
     <div class="wrapper">
 
-        <h1 class="page-title">MCSS 2023-2024 MEMBERSHIP CARD</h1>
-        <p class="p1">
-
-            <CloudImage class="membership-card" imageName="mcss/card/front_23-24" />
-        </p>
-        <p class="p1">
-            MTSA, HKSN, MCSS and MECA have partnered together to bring you another joint
-            Membership Card!
-
-            With our membership card, students can get numerous discounts at various restaurants and stores across the city.
-            We
-            take pride in bringing our members the best deals and benefits with our annually updated list of participating
-            sponsors.
-        </p>
-        <p class="p1">&nbsp</p>
-        <p class="p1">&nbsp</p>
-
-
         <h1 class="page-title">OUR SPONSORS</h1>
         <vueper-slides class="no-shadow" :visible-slides="5" :arrows="false" :slide-ratio="1 / 8" :bullets="false" autoplay
             duration="1000" :gap="3" :dragging-distance="70">

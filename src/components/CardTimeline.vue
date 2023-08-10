@@ -22,7 +22,7 @@ here for that pointer in timeline.-->
                 <div class="timeline-component">
                     <CloudImage class="timeline-card" :imageName="card.front" />
                 </div>
-                <template v-if="i % 2 === 0">
+                <!-- <template v-if="i % 2 === 0">
                     <div class="timeline-middle">
                         <div class="timeline-circle"></div>
                     </div>
@@ -32,13 +32,13 @@ here for that pointer in timeline.-->
                     <div class="timeline-middle">
                         <div class="timeline-circle"></div>
                     </div>
-                </template>
-                <!-- <div class="timeline-middle">
+                </template> -->
+                <div class="timeline-middle">
                     <div class="timeline-circle"></div>
                 </div>
                 <div class="timeline-component">
                     <CloudImage class="timeline-card" :imageName="card.back" />
-                </div> -->
+                </div>
             </template>
 
         </div>
@@ -51,7 +51,7 @@ here for that pointer in timeline.-->
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    
 }
 
 .design {
