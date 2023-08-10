@@ -6,6 +6,7 @@ import SponsorsPage from '@/views/SponsorsPage.vue'
 import MembershipPage from '@/views/MembershipPage.vue'
 import AboutUs from '@/views/AboutUs.vue'
 import EventsPage from '@/views/EventsPage.vue'
+import RecruitmentPage from '@/views/RecruitmentPage.vue'
 
 // make routes for router to route to
 const routes = [
@@ -29,6 +30,11 @@ const routes = [
     path: '/events',
     component: EventsPage
   },
+  {
+    path: '/recruitment',
+    component: RecruitmentPage
+  },
+  
 ]
 
 // the magical stuff

@@ -1,6 +1,5 @@
 <script setup>
 import CloudImage from '@/components/CloudImage.vue';
-import 'vueperslides/dist/vueperslides.css'
 import CardTimeline from '../components/CardTimeline.vue';
 </script>
 

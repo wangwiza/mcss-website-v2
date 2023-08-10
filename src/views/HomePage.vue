@@ -1,7 +1,7 @@
 <script setup>
-import Scene from "@/components/Scene.vue"
+import SceneChicken from "@/components/SceneChicken.vue"
 </script>
 
 <template>
-  <Scene />
+  <SceneChicken />
 </template>
