@@ -7,6 +7,7 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
 import { ref, onMounted } from 'vue';
+import { mode } from '@cloudinary/url-gen/actions/rotate';
 
 onMounted(() => {
     let mixer;
@@ -30,8 +31,6 @@ onMounted(() => {
 
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.target.set(0, 0.5, 0);
-    controls.autoRotate = true
-    controls.autoRotateSpeed = 20
     controls.enablePan = false
     controls.enableZoom = false
 
@@ -44,9 +43,11 @@ onMounted(() => {
         const model = gltf.scene;
         model.position.set(0, 0, 0);
         model.scale.set(0.01, 0.01, 0.01);
+        model.rotation.set(0,3,0)
         scene.add(model);
         mixer = new THREE.AnimationMixer(model);
-        mixer.clipAction(gltf.animations[0]).play();
+        
+        mixer.clipAction(gltf.animations[1]).play();
         animate();
     }, undefined, function (e) {
         console.error(e);

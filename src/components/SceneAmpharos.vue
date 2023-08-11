@@ -13,20 +13,21 @@ onMounted(() => {
 
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.setSize(600, 600);
+    renderer.setSize(window.innerWidth, window.innerHeight);
     container.appendChild(renderer.domElement);
 
     const pmremGenerator = new THREE.PMREMGenerator(renderer);
 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0xffffff);
+    // scene.background = new THREE.Color(0x4beb76);
+    scene.background = new THREE.TextureLoader().load("/assets/textures/forest.jpg")
     scene.environment = pmremGenerator.fromScene(new RoomEnvironment(renderer), 0.04).texture;
 
-    const camera = new THREE.PerspectiveCamera(40, 1, 1, 100);
-    camera.position.set(5, 1, 1);
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 300);
+    camera.position.set(0, 30, 100);
 
     const controls = new OrbitControls(camera, renderer.domElement);
-    controls.target.set(0, 0, -1);
+    controls.target.set(0, 0, 0);
     controls.autoRotate = true
     controls.autoRotateSpeed = 1
     controls.enablePan = false
@@ -37,10 +38,10 @@ onMounted(() => {
 
     const loader = new GLTFLoader();
     loader.setDRACOLoader(dracoLoader);
-    loader.load('/assets/models/glasses.glb', function (gltf) {
+    loader.load('/assets/models/ampharos.glb', function (gltf) {
         const model = gltf.scene;
-        model.position.set(0, 0, 0);
-        model.scale.set(0.3, 0.3, 0.3);
+        model.position.set(0, -250, 0);
+        model.scale.set(2, 2, 2);
         scene.add(model);
         animate();
     }, undefined, function (e) {
@@ -48,9 +49,9 @@ onMounted(() => {
     });
 
     window.onresize = function () {
-        camera.aspect = window.innerWidth / window.innerHeight;
-        camera.updateProjectionMatrix();
         renderer.setSize(window.innerWidth, window.innerHeight);
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();    
     };
 
     function animate() {
@@ -66,4 +67,9 @@ onMounted(() => {
 </template>
 
 <style scoped>
+#container {
+    width: 100%;
+    height: auto;
+
+}
 </style>
