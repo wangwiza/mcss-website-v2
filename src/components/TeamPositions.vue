@@ -1,69 +1,76 @@
 <script setup>
-import SceneAmpharos from '@/components/SceneAmpharos.vue';
+
 </script>
 
 <template>
-    <!-- <SceneAmpharos /> -->
-    <div class="wrapper">
-        <div class="grid">
-            <p class="p1">
-                So you want to be part of MCSS...
-            </p>
-            <p class="p1">&nbsp</p>
-            <p class="p1">&nbsp</p>
-            <h1 class="page-title">
-                RECRUITMENT
-            </h1>
-            <p class="p1">
-                If you've ever wanted to be a part of a loving and caring family 🏠, have plenty fun while planning exciting
-                events 🤪, and make friends with people that have the drippiest swag 😎, then MCSS is the perfect place for
-                you!
-            </p>
-            <p class="p1">
-                We have two recruitment periods that open depending on position availabilities: Fall and Winter.
-                <br />Currently, recruitment hasn't opened yet. Please keep an eye out on our SNS for posts!
-            </p>
-            <p class="p1">NOTE: You <strong>do not</strong> have to be Chinese to apply!</p>
-            <p class="p1">&nbsp</p>
-            <p class="p1">&nbsp</p>
-        </div>
-    </div>
+    <section class="py-5 section-bubble1">
+            <div class="container">
+                <div class="container__item">
+                    <h1>
+                        First Year Representatives
+                    </h1>
+                    <p>
+                        A test paragraph.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 section-bubble2">
+            <div class="container">
+                <h1>
+                    Section2
+                </h1>
+                <p>
+                    what
+                </p>
+            </div>
+        </section>
+        <section class="py-5 section-bubble3">
+            <div class="container">
+                <h1>
+                    Section3
+                </h1>
+                <p>
+                    A test paragraph.
+                </p>
+            </div>
+        </section>
+        <section class="py-5 section-bubble4">
+            <div class="container">
+                <h1>
+                    Section4
+                </h1>
+                <p>
+                    A test paragraph.
+                </p>
+            </div>
+        </section>
+        <section class="py-5 section-bubble5">
+            <div class="container">
+                <h1>
+                    The footer
+                </h1>
+                <p>
+                    A test paragraph.
+                </p>
+            </div>
+        </section>
+        <section class="py-5 section-bubble1">
+            <div class="container">
+                <div class="container__item">
+
+                    <h1>
+                        First Year Representatives
+                    </h1>
+                    <p>
+                        A test paragraph.
+                    </p>
+                </div>
+            </div>
+        </section>
 </template>
 
 <style scoped>
-.wrapper {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-
-    position: relative;
-    max-width: 1660px;
-    width: 66.666%;
-    left: 16.666%
-}
-
-.grid {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.page-title {
-    font-size: var(--header-text-size-px);
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    margin-bottom: 45px;
-    letter-spacing: var(--heading-spacing);
-    text-transform: var(--heading-font-case);
-}
-
-.p1 {
-    text-align: center;
-    margin-bottom: 15px;
-}
-
 .container {
     display: flex;
 }

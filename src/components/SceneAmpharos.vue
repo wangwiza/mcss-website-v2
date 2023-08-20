@@ -6,7 +6,7 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
-import { ref, onMounted } from 'vue';
+import { onMounted } from 'vue';
 
 onMounted(() => {
     const container = document.getElementById('container');
