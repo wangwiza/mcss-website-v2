@@ -7,7 +7,6 @@ import MembershipPage from '@/views/MembershipPage.vue'
 import AboutUs from '@/views/AboutUs.vue'
 import EventsPage from '@/views/EventsPage.vue'
 import RecruitmentPage from '@/views/RecruitmentPage.vue'
-import ShopPage from '@/views/ShopPage.vue'
 
 // make routes for router to route to
 const routes = [
@@ -34,10 +33,6 @@ const routes = [
   {
     path: '/recruitment',
     component: RecruitmentPage
-  },
-  {
-    path: '/shop',
-    component: ShopPage
   },
   
 ]
