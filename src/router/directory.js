@@ -55,7 +55,7 @@ export const directory = [
             },
             {
                 name: 'contact us',
-                to: '/community/contact'
+                to: '/contact'
             },
             
         ]

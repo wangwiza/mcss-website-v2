@@ -3,7 +3,7 @@ import SceneAmpharos from '@/components/SceneAmpharos.vue';
 </script>
 
 <template>
-    <!-- <SceneAmpharos /> -->
+    <SceneAmpharos />
     <div class="wrapper">
         <div class="grid">
             <p class="p1">

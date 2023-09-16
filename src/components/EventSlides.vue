@@ -3,6 +3,8 @@ import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css'
 import CloudImage from '@/components/CloudImage.vue';
 
+
+
 const props = defineProps({
     year: Object
 })
@@ -11,7 +13,7 @@ const props = defineProps({
 <template>
     <div class="slide-container">
         <div class="slide-flag">{{ year.span }}</div>
-        <vueper-slides :slide-ratio="710 / 1577" :bullets="false" :touchable="false" autoplay duration="5000">
+        <vueper-slides :slide-ratio="710 / 1577" :bullets="false" :touchable="false" :autoplay="year.slides.length > 1" duration="5000">
             <vueper-slide v-for="(slide, i) in year.slides" :key="i">
                 <template #content>
                     <CloudImage :imageName="slide.image" />

@@ -1,4 +1,14 @@
-export const web_slides = {
+export const events = {
+    y2023: {
+        span: '2023-2024',
+        slides: [
+            {
+                title: "Welcome Party Night Market",
+                content: "???",
+                image: 'mcss/events/2023-2024/welcome_party_banner'
+            },
+        ]
+    },
     y2022: {
         span: '2022-2023',
         slides: [
