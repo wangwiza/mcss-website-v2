@@ -1,13 +1,15 @@
 <script setup>
 import SceneChicken from "@/components/SceneChicken.vue"
-import CloudImage from '@/components/CloudImage.vue';
+
+import { homeSlides } from '@/data/homeSlides.js';
+import HomeSlides from '@/components/HomeSlides.vue';
 </script>
 
 <template>
   <div class="wrapper">
     <div class="grid">
-      <CloudImage imageName="mcss/events/2023-2024/welcome_party_banner" />
-      <!-- <SceneChicken /> -->
+      <HomeSlides v-for="collection in homeSlides" :collection="collection" />
+      <SceneChicken />
     </div>
   </div>
 </template>
