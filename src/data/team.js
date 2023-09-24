@@ -90,12 +90,12 @@ export const team = [
     {
         name: "Bill Lin",
         image: "bill_lin",
-        position: "Sponsorship Director",
+        position: "VP Marketing & Comms",
     },
     {
         name: "Kimberly Yang",
         image: "kimberly_yang",
-        position: "Sponsorship Director",
+        position: "VP Marketing & Comms",
     },
     // VP Media
     {
@@ -107,7 +107,7 @@ export const team = [
     {
         name: "Nina Zhuang",
         image: "nina_zhuang",
-        position: "VP Media",
+        position: "VP Finance",
     },
     // Social Director
     {
