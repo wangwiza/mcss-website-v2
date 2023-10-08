@@ -42,7 +42,7 @@ export const directory = [
     },
     {
         name: 'info',
-        to: '/',
+        to: '/about',
         children: [
             {
                 name: 'about mcss',
