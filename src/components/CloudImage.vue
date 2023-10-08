@@ -26,3 +26,10 @@ myImg.quality('auto')
 <template>
     <AdvancedImage :cldImg="myImg" :plugins="plugins" />
 </template>
+
+<style scoped>
+img {
+    width: 100%;
+    height: auto;
+}
+</style>
