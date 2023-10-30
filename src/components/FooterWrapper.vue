@@ -58,7 +58,7 @@
         <div class="bottom-row">
           <ul class="bottom-footer-links">
             <li>
-              <a href="/">&copy; 2023, MCSS</a>
+              <a href="/">&copy; 2023, McGill Chinese Students' Society</a>
             </li>
           </ul>
         </div>
