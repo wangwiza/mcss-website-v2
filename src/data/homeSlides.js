@@ -1,4 +1,10 @@
 export const homeSlides = {
+    casinoNight2023: [
+        {
+            title: "Casino Night Masquerade",
+            image: 'mcss/events/2023-2024/mcss_casino_banner'
+        },
+    ],
     totes: [
         {
             title: "Both Totes",
