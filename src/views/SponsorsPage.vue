@@ -9,11 +9,6 @@ import 'vueperslides/dist/vueperslides.css'
     <div class="wrapper">
 
         <h1 class="page-title">OUR SPONSORS</h1>
-        <vueper-slides class="no-shadow" :visible-slides="5" :arrows="false" :slide-ratio="1 / 8" :bullets="false" autoplay
-            duration="1000" :gap="3" :dragging-distance="70">
-            <vueper-slide v-for="sponsor in sponsors" :key="sponsor" :title="sponsor.name" :image="sponsor.image" />
-        </vueper-slides>
-
         <div class="sponsor-grid">
             <div class="sponsor-grid__item" v-for="sponsor in sponsors" :key="sponsor">
                 <CloudImage :imageName="sponsor.image" />

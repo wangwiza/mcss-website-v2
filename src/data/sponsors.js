@@ -1,63 +1,95 @@
 export const sponsors = [
     {
-        name: "Matcha Zanmai",
-        image: "mcss/sponsors/matcha_zanmai_sm"
+        name: "DONDONYA",
+        image: "mcss/sponsors/dondonya"
     },
     {
-        name: "World Tea House",
-        image: "mcss/sponsors/world_teahouse"
+        name: "Egina",
+        image: "mcss/sponsors/egina"
     },
     {
-        name: "Nos Thés",
+        name: "Kim Fung",
+        image: "mcss/sponsors/kim_fung"
+    },
+    {
+        name: "Les Saisons de Corée",
+        image: "mcss/sponsors/les_saisons"
+    },
+    {
+        name: "Nos Thés (Ste-Cath/Guy)",
         image: "mcss/sponsors/nos_thes"
+    },
+    {
+        name: "Restaurant PM",
+        image: "mcss/sponsors/restaurant_pm"
+    },
+    {
+        name: "Seoul Dosirak",
+        image: "mcss/sponsors/seoul_dosirak"
+    },
+    {
+        name: "Yin Ji Change Fen",
+        image: "mcss/sponsors/yinjichangfen"
+    },
+    {
+        name: "Nouille De Riz Yunnan",
+        image: "mcss/sponsors/yunnan"
     },
     {
         name: "Sansotei Ramen",
         image: "mcss/sponsors/sansotei_ramen_sm"
     },
     {
-        name: "Yi Ji Change Fen",
-        image: "mcss/sponsors/yijichangfen"
+        name: "Ganadara (McGill)",
+        image: "mcss/sponsors/ganadara"
     },
     {
-        name: "DONDONYA",
-        image: "mcss/sponsors/dondonya"
+        name: "Chiuonthese",
+        image: "mcss/sponsors/chiuonthese"
     },
     {
-        name: "Chicha",
-        image: "mcss/sponsors/chicha"
+        name: "Gâteaux Rì Yuè",
+        image: "mcss/sponsors/ri_yue"
+    },
+    {
+        name: "Tiger Sugar",
+        image: "mcss/sponsors/tiger_sugar"
     },
     {
         name: "Tsujiri",
         image: "mcss/sponsors/tsujiri"
     },
     {
-        name: "Hazukido",
-        image: "mcss/sponsors/hazukido"
-    },
-    {
-        name: "Kalbi BBQ",
-        image: "mcss/sponsors/kalbi_bbq"
-    },
-    {
-        name: "Ahi Poke",
-        image: "mcss/sponsors/ahi_poke"
-    },
-    {
-        name: "Gong Cha",
+        name: "Gong Cha (Ste-Cath)",
         image: "mcss/sponsors/gong_cha"
     },
     {
-        name: "Khiel's Canada",
-        image: "mcss/sponsors/khiels"
+        name: "OCHA (Ste-Cath W)",
+        image: "mcss/sponsors/ocha"
+    },
+    {
+        name: "Zoe Dessert",
+        image: "mcss/sponsors/zoe_dessert"
+    },
+    {
+        name: "Dessert Coréen Crofre",
+        image: "mcss/sponsors/crofre"
+    },
+    {
+        name: "CoCo (Ste-Cath)",
+        image: "mcss/sponsors/coco"
+    },
+    {
+        name: "Matcha Zanmai",
+        image: "mcss/sponsors/matcha_zanmai_sm"
+    },
+    {
+        name: "Bahay Collective",
+        image: "mcss/sponsors/bahay"
     },
     {
         name: "Hair Anatomy Studios",
         image: "mcss/sponsors/hair_anatomy"
-    },
-    {
-        name: "Salon Rium",
-        image: "mcss/sponsors/salon_rium"
     },
     {
         name: "Mei Dental Clinic",
