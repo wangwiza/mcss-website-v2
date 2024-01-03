@@ -24,10 +24,12 @@ import CardTimeline from '../components/CardTimeline.vue';
             From 2021 onwards, the East Asian Clubs of McGill have decided to team up to provide you with a collab membership card.
             This means higher quality collab events, less cards to carry around, and an even bigger list of sweet deals for you.
         </p>
+        <p class="p1 ">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8UOZsM_RChgcqaGFS2tLAJHYifEoRvG-xlMRft-fTTLXBXw/viewform">CLICK HERE TO GET YOUR OWN SUPER DUPER AWESOME MEMBERSHIP CARD</a>
+        </p>
         <p class="p1">
             By buying our card, you are also showing your support, and enabling us to keep producing banger events.
         </p>
-        
         <p class="p1">&nbsp</p>
         <p class="p1">
             Every year, the graphic/media teams of each club come together to vote on a new design for the card. You can take a look at some of the designs that have won previously below.
@@ -62,7 +64,18 @@ import CardTimeline from '../components/CardTimeline.vue';
 .p1 {
     text-align: center;
     margin-bottom: 15px;
+}
 
+a {
+  box-shadow: inset 0 0 0 0 #e98346;
+  color: #e98346;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 1000px 0 0 0 #e98346;
+  color: white;
 }
 
 .membership-card {
