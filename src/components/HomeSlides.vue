@@ -32,7 +32,7 @@ const props = defineProps({
 
 img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .slide-flag {
