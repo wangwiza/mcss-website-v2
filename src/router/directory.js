@@ -9,19 +9,19 @@ export const directory = [
         children: [
             {
                 name: '2023-2024',
-                to: '/'
+                to: '/events'
             },
             {
                 name: '2022-2023',
-                to: '/'
+                to: '/events'
             },
             {
                 name: '2021-2022',
-                to: '/'
+                to: '/events'
             },
             {
                 name: '2020-2021',
-                to: '/'
+                to: '/events'
             },
         ]
     },
