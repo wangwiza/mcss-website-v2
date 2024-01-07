@@ -6,24 +6,24 @@ export const directory = [
     {
         name: 'events',
         to: '/events',
-        children: [
-            {
-                name: '2023-2024',
-                to: '/events'
-            },
-            {
-                name: '2022-2023',
-                to: '/events'
-            },
-            {
-                name: '2021-2022',
-                to: '/events'
-            },
-            {
-                name: '2020-2021',
-                to: '/events'
-            },
-        ]
+        // children: [
+        //     {
+        //         name: '2023-2024',
+        //         to: '/events'
+        //     },
+        //     {
+        //         name: '2022-2023',
+        //         to: '/events'
+        //     },
+        //     {
+        //         name: '2021-2022',
+        //         to: '/events'
+        //     },
+        //     {
+        //         name: '2020-2021',
+        //         to: '/events'
+        //     },
+        // ]
     },
     
     {
