@@ -60,8 +60,8 @@ export const directory = [
             
         ]
     },
-    {
-        name: 'shop',
-        to: '/shop'
-    }
+    // {
+    //     name: 'shop',
+    //     to: '/shop'
+    // }
 ]

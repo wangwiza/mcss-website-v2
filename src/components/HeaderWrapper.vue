@@ -23,6 +23,7 @@ const navItems = ref(directory)
             <li v-for="item in navItems" :key="item.id">
               <HeaderLink :to="item.to" :children="item.children">{{ item.name }}</HeaderLink>
             </li>
+            <li><a href="https://mcss-market.square.site/">SHOP</a></li>
           </ul>
         </div>
       </div>
