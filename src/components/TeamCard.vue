@@ -9,7 +9,7 @@ const props = defineProps({
 
 <template>
     <div>
-        <CloudImage class="member__image" :imageName="'mcss/team/2022-2023/' + teamMember.image" />
+        <CloudImage class="member__image" :imageName="'mcss/team/2023-2024/' + teamMember.image" />
         <p class="member__title">
             <span style="font-weight: bold;">{{ teamMember.name }}</span>&nbsp;
             <span style="color: #808080">{{ teamMember.position }}</span>
@@ -24,8 +24,11 @@ div {
 }
 
 .member__image {
+    width: 100%;
     max-width: 100%;
-    /* border-top-right-radius: 25px; */
+    aspect-ratio: 3593 / 5390;
+    object-fit: cover;
+    max-height: 500px;
 }
 
 .member__title {

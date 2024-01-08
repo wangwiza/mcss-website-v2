@@ -7,6 +7,11 @@ export const events = {
                 content: "???",
                 image: 'mcss/events/2023-2024/welcome_party_banner'
             },
+            {
+                title: "Casino Night Masquerade",
+                content: "???",
+                image: 'mcss/events/2023-2024/mcss_casino_banner'
+            },
         ]
     },
     y2022: {
