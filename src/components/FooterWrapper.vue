@@ -27,7 +27,9 @@
               <input type="email" placeholder="email@example.com" name="contact[email]" id="Email"
                 class="input-group-field footer-email-input" />
               <span>
-                <input type="submit" class="btn footer-email-submit" name="subscribe" id="subscribe" value="SUBSCRIBE" />
+                <a href="https://forms.gle/xeS2xChKF3WkaUNz9">  
+                  <input type="submit" class="btn footer-email-submit" name="subscribe" id="subscribe" value="SUBSCRIBE" />
+                </a>
               </span>
             </div>
           </form>

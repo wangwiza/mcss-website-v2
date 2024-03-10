@@ -2,19 +2,33 @@
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css'
 import CloudImage from '@/components/CloudImage.vue';
+import { onMounted, ref } from 'vue';
 
 
 
 const props = defineProps({
     collection: Object
 })
+
+const selectedImages = ref([])
+
+const getRandomImages = () => {
+    const numberOfImagesToDisplay = 5; // Adjust the number as needed
+    const shuffledImages = [...props.collection].sort(() => Math.random() - 0.5);
+    selectedImages.value = shuffledImages.slice(0, numberOfImagesToDisplay);
+};
+
+onMounted(() => {
+    getRandomImages();
+});
+
 </script>
 
 <template>
     <div class="slide-container">
         <vueper-slides :slide-ratio="710 / 1577" :bullets="false" :touchable="false" :autoplay="collection.length > 1"
-            duration="5000">
-            <vueper-slide v-for="(slide, i) in collection" :key="i">
+            duration="10000">
+            <vueper-slide v-for="(slide, i) in selectedImages" :key="i">
                 <template #content>
                     <CloudImage :imageName="slide.image" />
                 </template>
