@@ -12,6 +12,11 @@ export const events = {
                 content: "???",
                 image: 'mcss/events/2023-2024/mcss_casino_banner'
             },
+            {
+                title: "Lunar New Year",
+                content: "???",
+                image: 'mcss/events/2023-2024/lny_banner'
+            },
         ]
     },
     y2022: {

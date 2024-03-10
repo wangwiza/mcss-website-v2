@@ -1469,8 +1469,8 @@ export const homeSlides = {
     ],
     welcomeParty2023: [
         {
-            title: "Welcome Party Night Market",
-            image: 'mcss/events/2023-2024/welcome_party_banner'
+            title: "Lunar New Year",
+            image: 'mcss/events/2023-2024/lny_banner'
         },
     ]
 
