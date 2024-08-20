@@ -1,4 +1,10 @@
 export const homeSlides = {
+    mcssPalazoClubbing: [
+        {
+            title: "MCSS X Palazo: Nuit du Dragon",
+            image: 'mcss/events/2024-2025/mcss-palazo-clubbing'
+        },
+    ],
     casinoNight2023: [
         {
             title: "DSC_1937",
@@ -1466,12 +1472,5 @@ export const homeSlides = {
             title: "Food In Totes",
             image: 'mcss/merch/banners/tote_banner_4'
         },
-    ],
-    welcomeParty2023: [
-        {
-            title: "Lunar New Year",
-            image: 'mcss/events/2023-2024/lny_banner'
-        },
     ]
-
 }
