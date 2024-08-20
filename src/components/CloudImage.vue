@@ -11,7 +11,6 @@ const cld = new Cloudinary({
 const plugins = [
     lazyload(),
     responsive({ steps: 200 }),
-    placeholder({ mode: 'blur' }),
 ]
 
 const props = defineProps({
@@ -19,7 +18,6 @@ const props = defineProps({
 });
 
 const myImg = cld.image(props.imageName)
-myImg.format('auto')
 myImg.quality('auto')
 </script>
 
