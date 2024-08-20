@@ -30,7 +30,11 @@ onMounted(() => {
             duration="10000">
             <vueper-slide v-for="(slide, i) in selectedImages" :key="i">
                 <template #content>
-                    <CloudImage :imageName="slide.image" />
+                    <a v-if="slide.link" :href="'https://mcss-market.square.site/'" target="_blank"
+                        rel="noopener noreferrer">
+                        <CloudImage :imageName="slide.image" />
+                    </a>
+                    <CloudImage v-else :imageName="slide.image" />
                 </template>
             </vueper-slide>
         </vueper-slides>

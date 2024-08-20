@@ -2,7 +2,8 @@ export const homeSlides = {
     mcssPalazoClubbing: [
         {
             title: "MCSS X Palazo: Nuit du Dragon",
-            image: 'mcss/events/2024-2025/mcss-palazo-clubbing'
+            image: "mcss/photos/casino/DSC_1937",
+            link: "mcss-market.square.site"
         },
     ],
     casinoNight2023: [
