@@ -14,7 +14,7 @@ const props = defineProps({
     <div class="slide-container">
         <div class="slide-flag">{{ year.span }}</div>
         <vueper-slides :slide-ratio="710 / 1577" :bullets="false" :touchable="false" :autoplay="year.slides.length > 1" duration="5000">
-            <vueper-slide v-for="(slide, i) in year.slides" :key="i">
+            <vueper-slide v-for="(slide, i) in year.slides.reverse()" :key="i">
                 <template #content>
                     <CloudImage :imageName="slide.image" />
                 </template>
