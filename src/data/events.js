@@ -5,6 +5,10 @@ export const events = {
             {
                 title: "MCSS X Palazo Nuit du Dragon",
                 image: "mcss/events/2024-2025/mcss_palazo_banner2"
+            },
+            {
+                title: "Welcome Party Night Market",
+                image: "mcss/events/2024-2025/night_market_banner"
             }
         ]
     },
