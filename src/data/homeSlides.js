@@ -6,6 +6,12 @@ export const homeSlides = {
             link: "mcss-market.square.site"
         },
     ],
+    nightMarket: [
+        {
+            title: "Welcome Party Night Market",
+            image: "mcss/events/2024-2025/night_market_banner"
+        }
+    ],
     totes: [
         {
             title: "Both Totes",
