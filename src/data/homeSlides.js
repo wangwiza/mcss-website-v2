@@ -1,4 +1,33 @@
 export const homeSlides = {
+    mcssPalazoClubbing: [
+        {
+            title: "MCSS X Palazo: Nuit du Dragon",
+            image: "mcss/events/2024-2025/mcss_palazo_banner",
+            link: "mcss-market.square.site"
+        },
+    ],
+    totes: [
+        {
+            title: "Both Totes",
+            image: 'mcss/merch/banners/tote_banner_1',
+            link: "mcss-market.square.site"
+        },
+        {
+            title: "Canvas Totes",
+            image: 'mcss/merch/banners/tote_banner_2',
+            link: "mcss-market.square.site"
+        },
+        {
+            title: "Denim Totes",
+            image: 'mcss/merch/banners/tote_banner_3',
+            link: "mcss-market.square.site"
+        },
+        {
+            title: "Food In Totes",
+            image: 'mcss/merch/banners/tote_banner_4',
+            link: "mcss-market.square.site"
+        },
+    ],
     casinoNight2023: [
         {
             title: "DSC_1937",
@@ -1448,30 +1477,5 @@ export const homeSlides = {
             title: "ZEY04305",
             image: "mcss/photos/casino/ZEY04305",
         },
-    ],
-    totes: [
-        {
-            title: "Both Totes",
-            image: 'mcss/merch/banners/tote_banner_1'
-        },
-        {
-            title: "Canvas Totes",
-            image: 'mcss/merch/banners/tote_banner_2'
-        },
-        {
-            title: "Denim Totes",
-            image: 'mcss/merch/banners/tote_banner_3'
-        },
-        {
-            title: "Food In Totes",
-            image: 'mcss/merch/banners/tote_banner_4'
-        },
-    ],
-    welcomeParty2023: [
-        {
-            title: "Lunar New Year",
-            image: 'mcss/events/2023-2024/lny_banner'
-        },
     ]
-
 }
