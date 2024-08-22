@@ -2,7 +2,29 @@ export const homeSlides = {
     mcssPalazoClubbing: [
         {
             title: "MCSS X Palazo: Nuit du Dragon",
-            image: "mcss/photos/casino/DSC_1937",
+            image: "mcss/events/2024-2025/mcss_palazo_banner",
+            link: "mcss-market.square.site"
+        },
+    ],
+    totes: [
+        {
+            title: "Both Totes",
+            image: 'mcss/merch/banners/tote_banner_1',
+            link: "mcss-market.square.site"
+        },
+        {
+            title: "Canvas Totes",
+            image: 'mcss/merch/banners/tote_banner_2',
+            link: "mcss-market.square.site"
+        },
+        {
+            title: "Denim Totes",
+            image: 'mcss/merch/banners/tote_banner_3',
+            link: "mcss-market.square.site"
+        },
+        {
+            title: "Food In Totes",
+            image: 'mcss/merch/banners/tote_banner_4',
             link: "mcss-market.square.site"
         },
     ],
@@ -1454,24 +1476,6 @@ export const homeSlides = {
         {
             title: "ZEY04305",
             image: "mcss/photos/casino/ZEY04305",
-        },
-    ],
-    totes: [
-        {
-            title: "Both Totes",
-            image: 'mcss/merch/banners/tote_banner_1'
-        },
-        {
-            title: "Canvas Totes",
-            image: 'mcss/merch/banners/tote_banner_2'
-        },
-        {
-            title: "Denim Totes",
-            image: 'mcss/merch/banners/tote_banner_3'
-        },
-        {
-            title: "Food In Totes",
-            image: 'mcss/merch/banners/tote_banner_4'
         },
     ]
 }
