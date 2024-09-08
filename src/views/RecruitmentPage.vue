@@ -15,13 +15,32 @@ import SceneAmpharos from '@/components/SceneAmpharos.vue';
                 RECRUITMENT
             </h1>
             <p class="p1">
-                If you've ever wanted to be a part of a loving and caring family 🏠, have plenty fun while planning exciting
-                events 🤪, and make friends with people that have the drippiest swag 😎, then MCSS is the perfect place for
+                If you've ever wanted to be a part of a loving and caring family 🏠, have plenty fun while planning
+                exciting
+                events 🤪, and make friends with people that have the drippiest swag 😎, then MCSS is the perfect place
+                for
                 you!
             </p>
             <p class="p1">
-                We have two recruitment periods that open depending on position availabilities: Fall and Winter.
-                <br />Currently, recruitment hasn't opened yet. Please keep an eye out on our SNS for posts!
+                We have two recruitment periods that open depending on position availabilities: Fall and Winter.<br />
+                Currently, recruitment is open! We're looking for people to join us for the 2024-2025 AY!
+            <ul>
+                <li>🙋First Year Representative</li>
+                <li>👩🏻‍💼👨🏻‍💼 External Reps</li>
+                <li>🗣Project Manager</li>
+                <li>🤑Junior VP Finance</li>
+                <li>🎨Graphic Designer</li>
+                <li>🤳Content Creator</li>
+                <li>📷Photographer/Videographer</li>
+            </ul>
+            ❕How to Apply ❕<br>
+            🖱Click the link to submit your application:
+            <a href="https://forms.gle/MnFE3y7tQi8bEsDh7" target="_blank">https://forms.gle/MnFE3y7tQi8bEsDh7</a><br>
+            🗓<strong>Deadline:</strong> Submit your application by <strong>SUNDAY, SEPTEMBER 15TH</strong> at
+            11h59PM.<br>
+            💬<strong>Interviews:</strong> In-person interviews will be held the week after the deadline.<br><br>
+            We can't wait to welcome you to the team! ✨
+
             </p>
             <p class="p1">NOTE: You <strong>do not</strong> have to be Chinese to apply!</p>
             <p class="p1">&nbsp</p>
