@@ -9,7 +9,7 @@ const props = defineProps({
 
 <template>
     <div>
-        <CloudImage class="member__image" :imageName="'mcss/team/2023-2024/' + teamMember.image" />
+        <CloudImage class="member__image" :imageName="'mcss/team/' + teamMember.image" />
         <p class="member__title">
             <span style="font-weight: bold;">{{ teamMember.name }}</span>&nbsp;
             <span style="color: #808080">{{ teamMember.position }}</span>
