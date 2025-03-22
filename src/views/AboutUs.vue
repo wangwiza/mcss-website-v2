@@ -11,7 +11,7 @@ import { team } from '@/data/team.js';
       <h1 class="page-title">About McGill Chinese Student Society</h1>
       <div>
         <p class="p1">
-          <CloudImage class="page_polaroid" imageName="mcss/team/2023-2024/group_polaroid" />
+          <CloudImage class="page_polaroid" imageName="mcss/team/group" />
         </p>
         <p class="p1">
           MCSS, McGill Chinese Students' Society is the largest and most influential cultural student organization in

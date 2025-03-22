@@ -1,196 +1,198 @@
 export const team = [
     // Co-presidents
     {
-        name: "Amy Huang",
-        image: "amy_huang",
-        position: "Taller Co-president",
+        "name": "Emma Liu",
+        "image": "emma_liu",
+        "position": "Co-President"
     },
     {
-        name: "Charlene Yin",
-        image: "charlene_yin",
-        position: "Co-president",
-    },
-    // VP Internals
-    {
-        name: "Anita Zheng",
-        image: "anita_zheng",
-        position: "VP Internal",
+        "name": "Rico Li",
+        "image": "rico_li",
+        "position": "Co-President"
     },
     {
-        name: "Yuheng Liu",
-        image: "yuheng_liu",
-        position: "VP Internal",
-    },
-    // Project Managers
-    {
-        name: "Emma Liu",
-        image: "emma_liu",
-        position: "Project Manager",
+        "name": "Vivian Zhao",
+        "image": "vivian_zhao",
+        "position": "VP Internal"
     },
     {
-        name: "Shirley Wen",
-        image: "shirley_wen",
-        position: "Project Manager",
+        "name": "Cindy Liu",
+        "image": "cindy_liu",
+        "position": "VP Internal"
     },
     {
-        name: "Rico Li",
-        image: "rico_li",
-        position: "Project Manager",
+        "name": "Alina Lu",
+        "image": "alina_lu",
+        "position": "Project Manager"
     },
     {
-        name: "Alina Lu",
-        image: "alina_lu",
-        position: "Project Manager",
+        "name": "Athena Wang",
+        "image": "athena_wang",
+        "position": "Project Manager"
     },
     {
-        name: "Amanda Tam",
-        image: "amanda_tam",
-        position: "Project Manager",
+        "name": "McDave",
+        "image": "david_li",
+        "position": "Project Manager"
     },
     {
-        name: "Mark Siou",
-        image: "mark_siou",
-        position: "Project Manager",
+        "name": "Amanda Tam",
+        "image": "amanda_tam",
+        "position": "Project Manager"
     },
     {
-        name: "Athena Wang",
-        image: "athena_wang",
-        position: "Jr. Project Manager",
-    },
-    // Senior Advisors
-    {
-        name: "Kevin Say",
-        image: "kevin_say",
-        position: "MCSS Partner",
+        "name": "Liliane Smolders",
+        "image": "liliane_smolders",
+        "position": "Jr Project Manager"
     },
     {
-        name: "Michelle Lee",
-        image: "michelle_lee",
-        position: "Senior Advisor",
+        "name": "Coco Meng",
+        "image": "coco_meng",
+        "position": "Jr Project Manager"
     },
     {
-        name: "Xianos Fei",
-        image: "xianos_fei",
-        position: "Senior Advisor",
-    },
-    // Photographer
-    {
-        name: "Ze Yuan Fu",
-        image: "zeyuan_fu",
-        position: "Photographer",
+        "name": "Jia He Li",
+        "image": "jia_he_li",
+        "position": "VP External"
     },
     {
-        name: "Dimitri Yang",
-        image: "dimitri_yang",
-        position: "Photographer",
+        "name": "Jun Ho Oh",
+        "image": "jun_ho_oh",
+        "position": "VP External"
     },
     {
-        name: "Jimmy Sheng",
-        image: "jimmy_sheng",
-        position: "Videographer",
-    },
-    // VP External
-    {
-        name: "George Yin",
-        image: "george_yin",
-        position: "VP External",
-    },
-    // Sponsorship Directors
-    {
-        name: "Melina Chen",
-        image: "melina_chen",
-        position: "Sponsorships Director",
+        "name": "Ning Jin",
+        "image": "ning_jin",
+        "position": "VP External"
     },
     {
-        name: "Sophia Li",
-        image: "sophia_li",
-        position: "Sponsorships Coordinator",
+        "name": "Anh Ngo",
+        "image": "anh_ngo",
+        "position": "External Rep"
     },
     {
-        name: "Arthur Deng",
-        image: "arthur_deng",
-        position: "Sponsorships Director",
+        "name": "Mika Lam-Lussier",
+        "image": "mika_lam-lussier",
+        "position": "External Rep"
     },
     {
-        name: "Zhibo Wang",
-        image: "zhibo_wang",
-        position: "Sponsorships Director",
-    },
-    // VP Marketing & Comms
-    {
-        name: "Kimberly Yang",
-        image: "kimberly_yang",
-        position: "VP Marketing & Comms.",
+        "name": "Zhibo Wang",
+        "image": "zhibo_wang",
+        "position": "Sponsorship Director"
     },
     {
-        name: "Bill Lin",
-        image: "bill_lin",
-        position: "VP Marketing & Comms.",
-    },
-    // Social Director
-    {
-        name: "Cindy Liu",
-        image: "cindy_liu",
-        position: "Social Director",
+        "name": "Nina Zhuang",
+        "image": "nina_zhuang",
+        "position": "VP Finance"
     },
     {
-        name: "Jennifer Wang",
-        image: "jennifer_wang",
-        position: "Social Director",
-    },
-    // VP Media
-    {
-        name: "Dorothy Ma",
-        image: "dorothy_ma",
-        position: "VP Media",
+        "name": "Eva Lin",
+        "image": "eva_lin",
+        "position": "Jr VP Finance"
     },
     {
-        name: "Hillary Sun",
-        image: "hillary_sun",
-        position: "VP Media",
-    },
-    // Webmaster
-    {
-        name: "William Wang",
-        image: "william_wang",
-        position: "Webmaster",
-    },
-    // VP Finance
-    {
-        name: "Nina Zhuang",
-        image: "nina_zhuang",
-        position: "VP Finance",
-    },
-    // VP Academics
-    {
-        name: "Helene Lu",
-        image: "helene_lu",
-        position: "VP Academics",
-    },
-    // FYRS???
-    {
-        name: "Justin Xue",
-        image: "justin_xue",
-        position: "First-Year Rep",
+        "name": "Dorothy Ma",
+        "image": "dorothy_ma",
+        "position": "VP Media"
     },
     {
-        name: "Lillian Shan",
-        image: "lillian_shan",
-        position: "First-Year Rep",
+        "name": "Alice",
+        "image": "alice_shi",
+        "position": "Graphic Design"
     },
     {
-        name: "David Li",
-        image: "david_li",
-        position: "First-Year Rep",
+        "name": "Vassili Prokopenko",
+        "image": "vassili_prokopenko",
+        "position": "Graphic Designer"
     },
     {
-        name: "Vivian Zhao",
-        image: "vivian_zhao",
-        position: "First-Year Rep",
+        "name": "Bill Lin",
+        "image": "bill_lin",
+        "position": "VP Marketing & Comms"
     },
     {
-        name: "Ning Jin",
-        image: "ning_jin",
-        position: "First-Year Rep",
+        "name": "Kimberly Yang",
+        "image": "kimberly_yang",
+        "position": "VP Marketing & Communications"
+    },
+    {
+        "name": "Jen Wang",
+        "image": "jennifer_wang",
+        "position": "Social Director"
+    },
+    {
+        "name": "Lillian Shan",
+        "image": "lillian_shan",
+        "position": "Social Director"
+    },
+    {
+        "name": "William Wang",
+        "image": "william_wang",
+        "position": "Webmaster"
+    },
+    {
+        "name": "Defeng Lu",
+        "image": "defeng_lu",
+        "position": "Photographer"
+    },
+    {
+        "name": "Justin Xue",
+        "image": "justin_xue",
+        "position": "Photographer"
+    },
+    {
+        "name": "Li, Yong Jian",
+        "image": "yong_jian_li",
+        "position": "Photographer"
+    },
+    {
+        "name": "Aiden Wang",
+        "image": "aiden_wang",
+        "position": "First Year Rep"
+    },
+    {
+        "name": "Joseph Zhang",
+        "image": "joseph_zhang",
+        "position": "First Year Rep"
+    },
+    {
+        "name": "Liana Jia",
+        "image": "liana_jia",
+        "position": "First Year Rep"
+    },
+    {
+        "name": "Vinson",
+        "image": "vinson_zheng",
+        "position": "First Year Rep"
+    },
+    {
+        "name": "Lisa Chen",
+        "image": "lisa_chen",
+        "position": "First Year Rep"
+    },
+    {
+        "name": "Arthur Deng",
+        "image": "arthur_deng",
+        "position": "Senior Advisor"
+    },
+    {
+        "name": "Charlene Yin",
+        "image": "charlene_yin",
+        "position": "Senior Advisor"
+    },
+    {
+        "name": "Hélène Lu",
+        "image": "helene_lu",
+        "position": "Senior Advisor"
+    },
+    {
+        "name": "Mark Siou",
+        "image": "mark_siou",
+        "position": "Senior Advisor"
+    },
+    {
+        "name": "Shirley Wen",
+        "image": "shirley_wen",
+        "position": "Senior Advisor"
     },
 ]
